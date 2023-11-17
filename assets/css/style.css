@@ -90,7 +90,7 @@ main {
     background-color: aqua;
     /*Takes up surplus space to force the footer down*/
     flex: 1 0 auto;
-    margin-top: 57px;
+    margin-top: 115px;
 }
 
 /*Footer*/
@@ -112,6 +112,13 @@ footer {
     color: #ffffff;
     padding: 5%;
 }
+/* Media query: mobile and larger (375px and up) */
+@media screen and (min-width:375px) {
+    main{ margin-top: 58px;
+
+    }
+
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
@@ -126,7 +133,7 @@ footer {
     }
 
     main {
-        margin-top: 75px;
+        margin-top: 150px;
     }
 
     #menu {
@@ -154,5 +161,8 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
 
+    }
+    main {
+        margin-top: 75px;
     }
 }
