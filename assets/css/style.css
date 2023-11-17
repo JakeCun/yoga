@@ -50,9 +50,25 @@ main {
     background-color: aqua;
     /*Takes up surplus space to force the footer down*/
     flex: 1 0 auto;
+    margin-top: 116px;
 }
 
 /*Footer*/
 footer {
-    background-color: chartreuse;
+    background-color: #3a3a3a;
+    
+}
+
+#social-networks {
+    display: flex;
+        text-align: center;
+        justify-content:space-evenly;
+        font-size: 160%;
+        padding: 20px 0;
+        list-style-type: none;
+}
+
+#social-networks i {
+    color: #ffffff;
+    padding: 5%;
 }
