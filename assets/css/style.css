@@ -1,3 +1,7 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -17,7 +21,28 @@ body {
 /*Header*/
 
 header {
-    background-color: bisque;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Noto Serif Balinese', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3a3a3a;
 }
 
 /*Main*/
