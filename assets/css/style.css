@@ -172,4 +172,33 @@ footer {
     main {
         margin-top: 75px;
     }
+    
+    #cover-text { 
+    
+        background-color: rgb(89, 89, 89, .7);
+            font-size: 175%;
+            position: absolute;
+            right: 0;
+            bottom: 30px;
+            width: 55%;
+            min-height: 200px;
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-bottom: 0;
+        
 }
+/* Media query: laptops and larger (1024px and up) */
+@media screen and (min-width: 1024px){
+
+    #cover-text {
+        font-size: 200%;
+    }
+
+
+
+}
+
+}
+
+
+
