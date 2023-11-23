@@ -117,7 +117,7 @@ footer {
 #hero-image {
     height: 746px;
     width: 100%;
-    background: url(../images/pexels-marcus-aurelius-6787202.webp) no-repeat center center/cover;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -136,6 +136,38 @@ footer {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+}
+
+#about-us {
+    background-color: #000000;
+    
+}
+
+
+#about-us{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+#about-us h1 {
+    color: #ffffff;
+}
+
+#yoga-one {
+    display: flex;
+    width: 10em;
+    max-height: 10em;
+    border-radius: 50%;
+   
+
+}
+
+#yoga-two {
+    display: flex;
+    width: 10em;
+    max-height: 10em;
+    border-radius: 50%;
+
 }
 
 
