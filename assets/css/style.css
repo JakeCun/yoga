@@ -140,11 +140,11 @@ footer {
 
 #about-us {
     background-color: #000000;
-    
+
 }
 
 
-#about-us{
+#about-us {
     color: #ffffff;
     padding-bottom: 10px;
 }
@@ -153,21 +153,36 @@ footer {
     color: #ffffff;
 }
 
-#yoga-one {
+#instructor-one {
     display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    text-align: center;
+    /* Center text within the container */
+}
+
+#yoga-one {
     width: 10em;
     max-height: 10em;
     border-radius: 50%;
-   
+}
 
+#instructor-two {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    text-align: center;
+    /* Center text within the container */
 }
 
 #yoga-two {
-    display: flex;
     width: 10em;
     max-height: 10em;
     border-radius: 50%;
-
 }
 
 
@@ -204,33 +219,31 @@ footer {
     main {
         margin-top: 75px;
     }
-    
-    #cover-text { 
-    
-        background-color: rgb(89, 89, 89, .7);
-            font-size: 175%;
-            position: absolute;
-            right: 0;
-            bottom: 30px;
-            width: 55%;
-            min-height: 200px;
-            padding-top: 15px;
-            padding-left: 10px;
-            padding-bottom: 0;
-        
-}
-/* Media query: laptops and larger (1024px and up) */
-@media screen and (min-width: 1024px){
 
     #cover-text {
-        font-size: 200%;
+
+        background-color: rgb(89, 89, 89, .7);
+        font-size: 175%;
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+        width: 55%;
+        min-height: 200px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-bottom: 0;
+
     }
 
+    /* Media query: laptops and larger (1024px and up) */
+    @media screen and (min-width: 1024px) {
 
+        #cover-text {
+            font-size: 200%;
+        }
+
+
+
+    }
 
 }
-
-}
-
-
-
