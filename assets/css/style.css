@@ -197,7 +197,7 @@ footer {
 }
 
 #testimonials {
-    font-size: 180%;
+    font-size: 130%;
     color: #ffffff;
     text-align: center;
 }
@@ -215,15 +215,15 @@ footer {
 }
 
 #hannah {
-    width: 10em;
-    height: 10em;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
 
 }
 
 #david {
-    width: 10em;
-    height: 10em;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
 }
 
@@ -286,5 +286,41 @@ footer {
 
 
     }
+
+        #testimonials-main {
+    
+            background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(45, 45, 45) 35%, rgb(0, 0, 0) 100%);
+        }
+    
+        #testimonials {
+            font-size: 180%;
+            color: #ffffff;
+            text-align: center;
+        }
+    
+        #testimonials p {
+            font-size: 100%;
+            color: #ffffff;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+    
+        #testimonials h1 {
+            color: #ffffff;
+            /* Add this to explicitly set the color for h1 */
+        }
+    
+        #hannah {
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+    
+        }
+    
+        #david {
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+        }
 
 }
