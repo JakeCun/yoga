@@ -92,6 +92,7 @@ main {
     /*Takes up surplus space to force the footer down*/
     flex: 1 0 auto;
     margin-top: 43px;
+    
 }
 
 /*Footer*/
@@ -154,6 +155,7 @@ footer {
 }
 
 #instructor-one {
+
     display: flex;
     flex-direction: column;
     /* Stack items vertically */
@@ -161,6 +163,10 @@ footer {
     /* Center items horizontally */
     text-align: center;
     /* Center text within the container */
+
+
+
+
 }
 
 #yoga-one {
@@ -185,6 +191,41 @@ footer {
     border-radius: 50%;
 }
 
+#testimonials-main {
+    
+    background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(45, 45, 45) 35%, rgb(0, 0, 0) 100%);
+}
+
+#testimonials {
+    font-size: 180%;
+    color: #ffffff;
+    text-align: center;
+}
+
+#testimonials p {
+    font-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#testimonials h1 {
+    color: #ffffff;
+    /* Add this to explicitly set the color for h1 */
+}
+
+#hannah {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+
+}
+
+#david {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
