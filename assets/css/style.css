@@ -92,7 +92,7 @@ main {
     /*Takes up surplus space to force the footer down*/
     flex: 1 0 auto;
     margin-top: 43px;
-    
+
 }
 
 /*Footer*/
@@ -192,7 +192,7 @@ footer {
 }
 
 #testimonials-main {
-    
+
     background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(45, 45, 45) 35%, rgb(0, 0, 0) 100%);
 }
 
@@ -226,6 +226,68 @@ footer {
     height: 5em;
     border-radius: 50%;
 }
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form */
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    border-radius: 25%;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 115%;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 5px 32px;
+    font-size: 100%;
+    background-color: #535353;
+    color: #fafafa;
+}
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -276,6 +338,32 @@ footer {
 
     }
 
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+        #signup-form>h2 {
+            text-align: center;
+        }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
     /* Media query: laptops and larger (1024px and up) */
     @media screen and (min-width: 1024px) {
 
@@ -287,40 +375,40 @@ footer {
 
     }
 
-        #testimonials-main {
-    
-            background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(45, 45, 45) 35%, rgb(0, 0, 0) 100%);
-        }
-    
-        #testimonials {
-            font-size: 180%;
-            color: #ffffff;
-            text-align: center;
-        }
-    
-        #testimonials p {
-            font-size: 100%;
-            color: #ffffff;
-            text-align: center;
-            padding-bottom: 5px;
-        }
-    
-        #testimonials h1 {
-            color: #ffffff;
-            /* Add this to explicitly set the color for h1 */
-        }
-    
-        #hannah {
-            width: 10em;
-            height: 10em;
-            border-radius: 50%;
-    
-        }
-    
-        #david {
-            width: 10em;
-            height: 10em;
-            border-radius: 50%;
-        }
+    #testimonials-main {
+
+        background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(45, 45, 45) 35%, rgb(0, 0, 0) 100%);
+    }
+
+    #testimonials {
+        font-size: 180%;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    #testimonials p {
+        font-size: 100%;
+        color: #ffffff;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    #testimonials h1 {
+        color: #ffffff;
+        /* Add this to explicitly set the color for h1 */
+    }
+
+    #hannah {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+
+    }
+
+    #david {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+    }
 
 }
