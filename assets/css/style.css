@@ -351,9 +351,9 @@ main {
         top: 150px;
     }
 
-        #signup-form>h2 {
-            text-align: center;
-        }
+    #signup-form>h2 {
+        text-align: center;
+    }
 
     .text-input:hover {
         border-color: #f16c6b;
@@ -364,8 +364,14 @@ main {
         color: #454b1b;
     }
 
-    /* Media query: laptops and larger (1024px and up) */
-    @media screen and (min-width: 1024px) {
+
+    /* Media query: laptops and larger (992px and up) */
+    @media screen and (min-width: 992px) {
+
+
+        #menu a:hover {
+            border-bottom: 1px solid #000000;
+        }
 
         #cover-text {
             font-size: 200%;
