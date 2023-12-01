@@ -1,68 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harmony Yoga</title>
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!--header-->
     <header>
-        <a href="index.html">
-            <h1 id="logo">HARMONY YOGA</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+      <a href="index.html">
+        <h1 id="logo">HARMONY YOGA</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
 
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="testimonials.html">Testimonials</a>
-                </li>
-                <li><a href="signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html" class="active">Home</a>
+          </li>
+          <li>
+            <a href="testimonials.html">Testimonials</a>
+          </li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
     </header>
     <!--Main Content-->
-    <main>Main Content</main>
+    <main>
+      <section id="signup">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        ></form>
+
+        <h2><i class="fa-solid fa-yin-yang"></i> sign up here!</h2>
+
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name" class="text-input" required>
+        <br>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name" class="text-input" required>
+        <br>
+        <label for="email_address">Email Address</label>
+        <input type="email" name="email_address" id="email_address" class="text-input" required>
+        <br>
+        <div class="radio-buttons">
+            <div>
+
+                <div>
+                    <label for="yoga-classes">Yoga Classes</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                </div>
+                <div>
+                    <label for="mindfulness-coaching">Mindfulness Coaching</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
+      </section>
+    </main>
     <!--Footer-->
     <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
     <!--Font kit -->
-    <script src="https://kit.fontawesome.com/34a6ddd7bb.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/34a6ddd7bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
