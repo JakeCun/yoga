@@ -57,7 +57,7 @@ header a {
 }
 
 .active {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -149,6 +149,7 @@ footer {
     color: #ffffff;
     padding-bottom: 10px;
     text-align: center;
+    font-size: 130%;
 }
 
 #about-us h1 {
@@ -158,14 +159,13 @@ footer {
 #instructor-one {
 
     display: flex;
+    font-size: 130%;
     flex-direction: column;
     /* Stack items vertically */
     align-items: center;
     /* Center items horizontally */
     text-align: center;
     /* Center text within the container */
-
-
 }
 
 #yoga-one {
@@ -176,12 +176,14 @@ footer {
 
 #instructor-two {
     display: flex;
+    font-size: 130%;
     flex-direction: column;
     /* Stack items vertically */
     align-items: center;
     /* Center items horizontally */
     text-align: center;
     /* Center text within the container */
+
 }
 
 #yoga-two {
@@ -360,6 +362,39 @@ main {
         color: #454b1b;
     }
 
+    #about-us {
+
+        font-size: 160%;
+    }
+
+    #instructor-one {
+
+        display: flex;
+        font-size: 150%;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items horizontally */
+        text-align: center;
+        /* Center text within the container */
+        max-width: 65%;
+        padding-left: 15px;
+    }
+
+    #instructor-two {
+        display: flex;
+        font-size: 150%;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: right;
+        /* Center items horizontally */
+        text-align: center;
+        /* Center text within the container */
+        max-width: 65%;
+        margin-left: auto;
+        padding-right: 15px;
+
+    }
 
     /* Media query: laptops and larger (992px and up) */
     @media screen and (min-width: 992px) {
