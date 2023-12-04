@@ -166,8 +166,6 @@ footer {
     /* Center text within the container */
 
 
-
-
 }
 
 #yoga-one {
@@ -288,7 +286,6 @@ main {
 }
 
 
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -375,7 +372,6 @@ main {
         #cover-text {
             font-size: 200%;
         }
-
 
 
     }
