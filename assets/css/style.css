@@ -26,6 +26,22 @@ h1 {
     font-size: 120%;
 }
 
+p {
+    font-family: 'Noto Serif Balinese', serif;
+    color: #ffffff;
+
+}
+
+h2,
+h3 {
+    font-family: 'Noto Serif Balinese', serif;
+    color: #ffffff;
+    font-size: 120%;
+    -transform: uppercase;
+}
+
+
+
 /*Header*/
 
 header {
@@ -141,7 +157,6 @@ footer {
 
 #about-us {
     background-color: #000000;
-
 }
 
 
@@ -159,7 +174,7 @@ footer {
 #instructor-one {
 
     display: flex;
-    font-size: 130%;
+    font-size: 25px;
     flex-direction: column;
     /* Stack items vertically */
     align-items: center;
@@ -176,7 +191,7 @@ footer {
 
 #instructor-two {
     display: flex;
-    font-size: 130%;
+    font-size: 25px;
     flex-direction: column;
     /* Stack items vertically */
     align-items: center;
@@ -370,7 +385,7 @@ main {
     #instructor-one {
 
         display: flex;
-        font-size: 150%;
+
         flex-direction: column;
         /* Stack items vertically */
         align-items: center;
@@ -383,7 +398,7 @@ main {
 
     #instructor-two {
         display: flex;
-        font-size: 150%;
+
         flex-direction: column;
         /* Stack items vertically */
         align-items: right;
