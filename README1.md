@@ -14,7 +14,6 @@
 
 ![Landing Page](docs/images/harmony-yoga-landing-image.png)
 
-
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
@@ -24,8 +23,6 @@
 
 - __Testimonials__
 
-
-
 ![Gallery](docs/images/harmony-yoga-testimonials.png)
 
 - __The Sign Up Page__
@@ -34,15 +31,11 @@
 
 ![Sign Up](docs/images/harmony-yoga-sign-up.png)
 
-
-
 ### Features Left to Implement
 
 - 
 
 ## Testing
-
-
 
 ### Validator Testing
 
@@ -53,12 +46,7 @@
 
 ### Unfixed Bugs
 
-
-
 ## Deployment
-
-
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
@@ -67,11 +55,7 @@
 The live link can be found here - 
 
 ## Credits
-
-
-
 ### Content
-
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -82,4 +66,3 @@ The live link can be found here -
 - The images used for the gallery page were taken from this other open source site
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
