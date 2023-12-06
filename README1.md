@@ -11,6 +11,8 @@
 ![Nav Bar](docs/images/harmony-yoga-nav.png)
 
 - __Landing Page__
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+  - This section introduces the user to Harmony Yoga with an eye catching image to grab their attention
 
 ![Landing Page](docs/images/harmony-yoga-landing-image.png)
 
@@ -22,27 +24,34 @@
 ![Footer](docs/images/harmony-yoga-footer.png)
 
 - __Testimonials__
+    - The testimonials page offers insight to what to user can expect from Harmony Yoga, this is achieved by user testimonials and their experience.
 
-![Gallery](docs/images/harmony-yoga-testimonials.png)
+![Testimonials](docs/images/harmony-yoga-testimonials.png)
 
 - __The Sign Up Page__
 
-  - 
+  - This page will allow the user to get signed up to Harmony Yoga. The user will be able specify if they would like to take part in Yoga classes or Mindfulness coaching sessions. The user will be asked to submit their full name and email address.
 
 ![Sign Up](docs/images/harmony-yoga-sign-up.png)
 
 ### Features Left to Implement
 
-- 
+- Additional features that could be implented are as follows:
+    - Scroll to top feature, to speed up the user experience
+    - Google maps with Address pinned to help the user find Harmony Yoga
+
 
 ## Testing
+When testing from a user standpoint I made sure to check the responsivness on different device types. To ensure that the navigation bar was working correctly on mobile devices and that everything was easily accesessible to the user.
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official ![W3C index validator](docs/images/harmony-yoga-index-validator.png)
+  - ![W3C testimonials validator](docs/images/harmony-yoga-testimonials-validator.png)
+  - ![W3C signup validator](docs/images/harmony-yoga-signup-validator.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official ![(Jigsaw) validator](docs/images/harmony-yoga-css-validator.png)
 
 ### Unfixed Bugs
 
@@ -52,17 +61,13 @@
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - <https://jakecun.github.io/yoga/index.html>
 
 ## Credits
 ### Content
-- The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- The photos used on the home, testimonials and sign up page are from  [Pexels](https://www.pexels.com/)
