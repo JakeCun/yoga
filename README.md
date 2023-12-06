@@ -78,7 +78,7 @@ When testing from a user standpoint I made sure to check the responsivness on di
 
 ### Unfixed Bugs
 
-An unfixed bug i have encountered is that the nav bar is slightly too short on certain devices and leaves a gap between the main content and the nav bar itself ![Nav Bar Bug](docs/images/harmony-yoga-nav-bar-bug.png)
+An unfixed bug I have encountered is that the nav bar is slightly too short on certain devices and leaves a gap between the main content and the nav bar itself ![Nav Bar Bug](docs/images/harmony-yoga-nav-bar-bug.png)
 
 ## Deployment
 
